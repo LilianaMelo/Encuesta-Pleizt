@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
-import logo from './img/Logo.png';
-import logo2 from './img/Logo2.png';
+import logo from '../Imagenes/Logo.svg';
+import logo2 from '../Imagenes/Narcobollo.svg';
 
 export const Login = () => {
   return (
@@ -9,7 +9,7 @@ export const Login = () => {
     <>
       
       <nav className='nav'>
-        <div className='container-navbar'>
+        <div className='element-navbar'>
           <img src={logo} alt='logo'></img>
           <img src={logo2} alt='logo2'></img>
         </div>
@@ -17,7 +17,7 @@ export const Login = () => {
       </nav>
       
       <header>
-        <h1>Titulo de la encuesta</h1>
+        <h1>Título de la encuesta</h1>
         <h4>Descripción de la encuesta</h4>
       </header>  
 
