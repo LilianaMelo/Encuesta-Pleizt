@@ -1,0 +1,23 @@
+.header {
+    margin-top: 220px;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+.question-container{
+    padding: 1rem; /* 1rem son 16 px*/
+    /* height: 194px;
+    width: 272px;
+    left: 0px;
+    top: 128px; */
+    /* align-content: center; */
+    justify-content: center; 
+    margin-top: 40px;
+    /* width: 272px; */
+
+    /* box-sizing: border-box; */
+
+    /* flex-direction: column;*/
+    align-items: center; 
+} 

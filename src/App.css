@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
+  /* text-align: center; */
+  align-content: center;
   background: #FFFFFF;
 }
 
 body {
   margin: 40px;
   flex-direction: column;
-  align-items: center;
+  
 }
 

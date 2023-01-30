@@ -1,0 +1,35 @@
+/* Navbar */
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {    
+    margin: 0;
+    margin-bottom: 45px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element-navbar {
+    display: flex;
+    align-items: center; /* centra las imagenes en la caja */
+    justify-content: space-between;
+} 
+
+.logo {
+    position: absolute;
+    height: 180px;
+    width: 140px;
+    top: 0px;
+}
+
+.decoracion {
+    position: absolute;
+    height: 225px;
+    width: 207px;
+    right: 0px;
+    top: 0px;
+}

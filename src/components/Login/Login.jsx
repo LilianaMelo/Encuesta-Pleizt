@@ -2,6 +2,7 @@ import React from 'react';
 import './Login.css';
 import logo from '../Imagenes/Logo.svg';
 import logo2 from '../Imagenes/Narcobollo.svg';
+import { Boton } from '../Boton/Boton';
 
 export const Login = () => {
   return (
@@ -13,7 +14,6 @@ export const Login = () => {
           <img src={logo} alt='logo'></img>
           <img src={logo2} alt='logo2'></img>
         </div>
-          
       </nav>
       
       <header>
@@ -27,7 +27,8 @@ export const Login = () => {
             <input className='input' type="text" placeholder='Correo Electrónico'></input>
             <input className='input' type="text" placeholder='Teléfono'></input>
 
-            <button className='button' >Preguntas o Siguiente</button>
+            {/* <button className='button' >Preguntas o Siguiente</button> */}
+            <Boton />
         </form>
 
     </>
