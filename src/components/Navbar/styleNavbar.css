@@ -3,6 +3,8 @@
 header {
     margin: 0;
     padding: 0;
+    margin: 40px;
+    flex-direction: column;
 }
 
 .nav {    
@@ -32,4 +34,22 @@ header {
     width: 207px;
     right: 0px;
     top: 0px;
+}
+
+@media (max-width: 400) {
+    .logo {
+        position: absolute;
+        height: 170px;
+        width: 130px;
+        top: 0px;
+    }
+
+.decoracion {
+        position: absolute;
+        height: 215px;
+        width: 197px;
+        right: 0px;
+        top: 0px;
+    }
+    
 }

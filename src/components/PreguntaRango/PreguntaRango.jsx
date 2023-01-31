@@ -57,8 +57,8 @@ export const PreguntaRango = () => {
             {/* listas de seleccion son con bropdown (desplegable) */}
             <div className='question-container'>
                 
-                <Select 
-                    defaultValue={ { label: "Seleccionar", value: "Seleccionar"  } }
+                <Select className='options'
+                    defaultValue={ { label: "Selecciona la pregunta", value: "Seleccionar" } }
                     // options={ questions }
                     options={ DBQuestions.map(ques => ({ label: ques.q, value: ques.id }) )}
                     onChange={ onChangeSelect }
@@ -77,10 +77,10 @@ export const PreguntaRango = () => {
                 
                 />
 
-                
+                <Boton />
             
             </div>
-            <Boton />
+            
         </>
         
     )

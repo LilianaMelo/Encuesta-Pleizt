@@ -16,7 +16,7 @@ export const Login = () => {
         </div>
       </nav>
       
-      <header>
+      <header className='header'>
         <h1>Título de la encuesta</h1>
         <h4>Descripción de la encuesta</h4>
       </header>  
