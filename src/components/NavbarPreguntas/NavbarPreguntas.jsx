@@ -1,17 +1,17 @@
 import React from 'react';
 import logo from '../Imagenes/Logo.svg';
 import decoracion from '../Imagenes/img-decoracion.svg';
-import "./styleNavbar.css";
+import "./styleNavbarPreguntas.css";
 
-export const Navbar = () => {
+export const NavbarPreguntas = () => {
     return (
         <>
             <header>
-                <nav className='nav'>
-                    <div className='element-navbar'>  
+                <nav className='nav-preguntas'>
+                    <nav className='element-navbar-preguntas'>  
                         <img src={logo} alt='logo' className='logo'></img>
                         <img src={decoracion} alt='decoracion' className='decoracion'></img>
-                    </div> 
+                    </nav> 
                 </nav>
             </header>
         </>

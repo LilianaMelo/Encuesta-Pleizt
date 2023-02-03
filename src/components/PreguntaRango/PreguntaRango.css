@@ -1,26 +1,14 @@
 .header {
-    margin-top: 220px;
-    text-align: left;
+    margin-top: 100px;
     padding: 1rem;
+    align-self: start;
 }
 
 
 .question-container{
-
     padding: 1rem; /* 1rem son 16 px*/
-    /* height: 194px;
-    width: 272px;
-    left: 0px;
-    top: 128px; */
-    /* align-content: center; */
-    /* justify-content: center;  */
     margin-top: 40px;
-    margin-bottom: 40px !important;
-    /* width: 272px;
-    height: 36px; */
-    /* box-sizing: border-box; */
-    /* flex-direction: column;*/
-    /* align-items: center;  */
+    margin-bottom: 40px;
 
     display: flex;
     flex-direction: column;

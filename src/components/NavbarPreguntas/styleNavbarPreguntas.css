@@ -7,24 +7,33 @@ header {
     flex-direction: column;
 }
 
-.nav {    
+.nav-preguntas {    
     margin: 0;
     margin-bottom: 45px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
-.element-navbar {
+.element-navbar-preguntas {
+
+    margin-bottom: 40px;
     display: flex;
-    align-items: center; /* centra las imagenes en la caja */
-    justify-content: space-between;
+    flex-direction: row;
+    align-content: space-between;
+    /* align-items: center; */
+    
+    
+    /* flex-direction: row;
+    align-items: center; /* centra las imagenes en la caja 
+     */
 } 
 
 .logo {
     position: absolute;
     height: 180px;
     width: 140px;
+    left: 40px;
     top: 0px;
 }
 
@@ -39,15 +48,15 @@ header {
 @media (max-width: 400) {
     .logo {
         position: absolute;
-        height: 170px;
-        width: 130px;
+        height: 70px;
+        width: 30px;
         top: 0px;
     }
 
-.decoracion {
+    .decoracion {
         position: absolute;
-        height: 215px;
-        width: 197px;
+        background-size: 115px;
+        width: 97px;
         right: 0px;
         top: 0px;
     }

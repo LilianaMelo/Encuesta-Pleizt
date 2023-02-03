@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
 import logo from '../Imagenes/Logo.svg';
-import logo2 from '../Imagenes/Narcobollo.svg';
+import logoNarcobollo from '../Imagenes/Narcobollo.svg';
 import { Boton } from '../Boton/Boton';
 
 export const Login = () => {
@@ -9,10 +9,10 @@ export const Login = () => {
 
     <>
       
-      <nav className='nav'>
-        <div className='element-navbar'>
-          <img src={logo} alt='logo'></img>
-          <img src={logo2} alt='logo2'></img>
+      <nav className='nav-login'>
+        <div className='element-navbar-login' style={{margin: "10px"}}>
+          <img src={logo} alt='logo' style={{position:"absolute", left: "39px"}}></img>
+          <img src={logoNarcobollo} alt='logo2' style={{position:"absolute", right: "0px" }}></img>
         </div>
       </nav>
       

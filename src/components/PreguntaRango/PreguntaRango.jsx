@@ -1,7 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
 import { Boton } from '../Boton/Boton';
-import { Navbar } from '../Navbar/Navbar';
+import { NavbarPreguntas } from '../NavbarPreguntas/NavbarPreguntas';
 import "./PreguntaRango.css";
 
 // npm i --save react-select >>>> es un paquete de react para hacer el select
@@ -47,7 +47,7 @@ export const PreguntaRango = () => {
     return (
         <>
 
-            <Navbar />
+            <NavbarPreguntas />
 
             <header className='header'>
                 <h1>Título de la encuesta</h1>
